@@ -1,0 +1,69 @@
+/* ProfileCard.css */
+.profile-section {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.profile-image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profile-info {
+  flex: 1;
+}
+
+.profile-username {
+  font-size: 24px;
+  margin: 0;
+  color: #333;
+}
+
+.profile-email {
+  font-size: 16px;
+  color: #777;
+}
+
+.profile-tests-given {
+  font-size: 16px;
+  color: #777;
+  margin-top: 10px;
+}
+
+.progress-bar-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.progress-label {
+  font-size: 16px;
+  color: #333;
+  margin-right: 10px;
+}
+
+.progress-bar {
+  flex: 1;
+}
+.reset-button {
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+
+  cursor: pointer;
+  margin-top: 20px;
+  
+}
+
+.reset-button:hover {
+  background-color: #ff4731;
+}

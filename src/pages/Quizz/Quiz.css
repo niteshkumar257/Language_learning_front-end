@@ -1,0 +1,131 @@
+/* App.css (or create a separate CSS file for your components) */
+
+/* Styles for the quiz app container */
+.quiz-app {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    width: 96%;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+  }
+  .quiz-container{
+      display: flex;
+      justify-content:space-between;
+      padding-left: 1rem;
+  }
+  
+ .main-question-container{
+  display: flex;
+  justify-content: space-between;
+ padding-left: 1rem;
+ }
+ 
+  /* Styles for the quiz title and difficulty level */
+  .quiz-app h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+   
+  }
+  
+  .quiz-app h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+   
+  }
+  
+  /* Styles for question container */
+  .question-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    
+  }
+  
+  /* Styles for options list */
+  .question-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .question-container li {
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  .question-container li:hover{
+    background-color: rgb(233, 233, 233);
+  }
+  
+  .question-container li.selected {
+    background-color:rgb(132, 0, 255);
+    color: #fff;
+  }
+  
+  /* Styles for the "Next" button */
+  
+  
+  /* Styles for the quiz result */
+  .quiz-result h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .quiz-result{
+   width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    row-gap: 10px;
+
+
+  }
+  .left-container{
+    flex:1
+  }
+  .left-container img{
+    height: 300px;
+    width: 300px;
+  }
+  .right-container{
+    flex:1
+  }
+  .quiz-result p {
+    font-size: 18px;
+  }
+  .button-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .next-button{
+    
+  cursor: pointer;
+  background-color:rgb(132, 0, 255) ;
+  
+  }
+  .difficult-Easy{
+    color: rgb(0, 220, 0);
+    font-weight: 500;
+  }
+  .difficult-Medium{
+    color: orange;
+    font-weight: 500;
+  }
+  .difficult-Hard{
+    color: red;
+    font-weight: 500;
+  }
+  @media screen and (max-width:600px) {
+    .quiz-result{
+       display: flex;
+       flex-direction: column;
+       row-gap: 20px;
+    }
+    
+  }
+  

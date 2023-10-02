@@ -1,0 +1,51 @@
+/* ExerciseCard.css */
+.exercise-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+  
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+  }
+  .exercise-card:hover{
+    background-color:rgba(237, 237, 237, 0.648);
+    transition: 0.6 ease-out;
+  }
+  
+  .exercise-card h2 {
+    font-size: 1.5rem;
+  }
+  
+  .exercise-card p {
+    font-size: 1rem;
+    margin: 8px 0;
+  }
+  .take-test-button{
+    cursor: pointer;
+  }
+  .take-test-button:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .left-container{
+
+  }
+  .right-container{
+
+  }
+  .difficult-Easy{
+    color: rgb(0, 220, 0);
+    font-weight: 500;
+  }
+  .difficult-Medium{
+    color: orange;
+    font-weight: 500;
+  }
+  .difficult-Hard{
+    color: red;
+    font-weight: 500;
+  }
+  

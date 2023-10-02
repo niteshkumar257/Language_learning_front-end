@@ -1,0 +1,79 @@
+/* Styling for the history container */
+.history-container {
+    background-color:rgb(132, 0, 255);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    width: 100%;
+    
+  }
+  
+  /* Styling for the header container */
+  .header-container {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-weight: bold;
+  }
+  
+  /* Styling for the past test containers */
+  .pastTest-container {
+    margin-top: 10px;
+  }
+  
+  /* Styling for the individual test items */
+  .mark-container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 2rem;
+  }
+  
+  /* Styling for the left and right containers */
+  .left-container {
+    flex: 1;
+  }
+  
+  .right-container {
+    margin-left: 20px;
+    flex-shrink: 0;
+  }
+  
+  /* Styling for the test name, difficulty, and score */
+  .mark-container span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Styling for the loading text */
+  .loading-text {
+    font-style: italic;
+    color: #888;
+  }
+  
+  /* Styling for the "No test given" message */
+  .no-test-message {
+    color: #888;
+    text-align: center;
+  }
+  .difficult-Easy{
+    color: rgb(0, 220, 0);
+    font-weight: 500;
+  }
+  .difficult-Medium{
+    color: orange;
+    font-weight: 500;
+  }
+  .difficult-Hard{
+    color: red;
+    font-weight: 500;
+  }
+  

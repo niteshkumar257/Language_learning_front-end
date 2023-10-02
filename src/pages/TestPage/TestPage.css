@@ -1,0 +1,26 @@
+.main-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+   
+}
+.filter-container{
+    height: 12vh;
+  
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+
+
+}
+.excercise-container{
+    display: grid;
+    grid-template-columns: repeat(1,fr);
+  
+
+}

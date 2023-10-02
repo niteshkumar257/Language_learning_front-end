@@ -1,0 +1,21 @@
+.language-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem .5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 10vh;
+    background-color: rgb(132, 0, 255);
+    transition: 0.3s ease;
+    cursor: pointer;
+    border: 0.4px solid rgb(132, 132, 132);
+    border-radius: 9px;
+    color: white;
+  
+}
+.language-card:hover{
+    
+    transform: translateY(-.3rem) translateX(-.1rem);
+    
+}

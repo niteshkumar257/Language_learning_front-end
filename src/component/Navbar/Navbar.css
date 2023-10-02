@@ -1,0 +1,86 @@
+nav{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    
+    align-items: center;
+    position: sticky;
+    border-bottom: 1px solid black;
+    flex-direction: row;
+    column-gap: 3rem;
+   
+    
+    
+    
+}
+.logo-container{
+    display: flex;
+    justify-content:flex-start;
+    padding-left:2rem ;
+    align-items: center;
+    flex:2;
+    
+    
+}
+.menu-container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-right: .4rem;
+    
+}
+nav ul {
+    flex:4;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 1rem;
+    column-gap: 30px;
+    list-style: none;
+    
+}
+
+.link-tag{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+   
+}
+.unselected{
+    list-style: none;
+    font-size: 1.5rem;
+    background-color: rgb(16, 0, 0);
+    text-decoration: none;
+    
+    
+
+}
+.drawer {
+    position: fixed;
+    top: 0;
+    left: -300px; /* Initially hidden */
+    width: 280px;
+    height: 100vh;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: left 0.3s ease-in-out;
+    z-index: 1;
+   
+  }
+  
+  .drawer.open {
+    left: 0; /* Display the drawer */
+  }
+  
+  .drawer-content {
+     
+    row-gap: 10px;
+  
+    height:100vh;
+    padding-left: 1.5rem;
+  }
+  .drawer-content ul{
+    display: flex;
+     flex-direction:column;
+  }
+  

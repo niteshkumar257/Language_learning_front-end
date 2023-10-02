@@ -1,0 +1,46 @@
+.lang-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  flex-direction: column;
+  row-gap: 1rem;
+    width: 100%;
+    padding: 1rem;
+   
+}
+.add-container{
+    display: flex;
+    flex-direction: column;
+    column-gap: 1.5rem;
+   width: inherit;
+   align-items: center;
+   justify-content: center;
+}
+.add-container button{
+  background-color: rgb(132, 0, 255);;
+}
+.list-container{
+    width: inherit;
+    display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 16px; 
+  
+}
+.lang-container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0rem .5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 10vh;
+    background-color: rgb(132, 0, 255);
+    transition: 0.3s ease;
+    cursor: pointer;
+    border: 0.4px solid rgb(132, 132, 132);
+    border-radius: 9px;
+    color: white;
+
+}

@@ -6,7 +6,7 @@ import QuizIcon from '@mui/icons-material/Quiz';
 const LanguageCard = ({ language }) => {
   const navigate=useNavigate();
   const handleClick=()=>{
-        console.log(language._id)
+       
         navigate(`/Test/${language._id}`);
 
   }
